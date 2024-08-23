@@ -1,0 +1,42 @@
+.message-item {
+    margin: 10px;
+    display: flex;
+
+    &-content {
+        max-width: 548px;
+    }
+}
+
+.message-item-wrapper {
+    background-color: #F3F3F3;
+    border-radius: 4px;
+    padding: 8px 12px;
+    max-width: 510px;
+
+    .message-item-wrapper-content {
+        margin: 0px;
+        
+        .message-item-is-readed-icon {
+            float: right;
+            span {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 9px;
+                color: #605E5C;
+                padding: 4px;
+            }
+        }
+    }
+}
+
+
+.mine-message-wrapper {
+    position: relative;
+    background-color: rgb(64, 126, 201, 0.16);
+    max-width: 548px;
+}
+
+.mine-message {
+    justify-content: end;
+}
